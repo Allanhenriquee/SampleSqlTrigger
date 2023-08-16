@@ -65,10 +65,18 @@ ENABLE CHANGE_TRACKING;
 ```
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/d33a7c49-2bd8-4584-8e4d-8e2c1f875d8c)
 
-7. Execute o projeto da Function e depois execute o projeto da API.
+7. **Execute o projeto da Function e depois execute o projeto da API.**
 
-## Endpoints do Swagger.
+8. **Faça as requisições através da interface do swagger e veja o console do projeto da function exibindo os dados e operações realizadas.** 
+
+![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/03565a0b-60eb-4e65-a158-0172354a440e)
+
+------------------------------------------
+
+## Interface do Swagger.
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/32566998-3b2e-4579-b4a7-7ba5a5e10739)
+
+------------------------------------------
 
 ## Estrutura do Projeto
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/8ccd9252-6dfc-4692-947f-babd35487cd7)
