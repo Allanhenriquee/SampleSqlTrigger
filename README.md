@@ -44,17 +44,17 @@ dotnet ef database update
 ```
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/e5e2238f-a0e8-4b21-800e-5e24e7460498)
 
-4. **Acesse o SQL com os dados da connectionString no appsettings.Development.json**
+5. **Acesse o SQL com os dados da connectionString no appsettings.Development.json**
    
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/1c7fc7b5-93cc-4051-94da-55ece3bb9f42)
 
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/faefd226-f7fa-4287-af54-c99dfe327ffe)
 
-5. **Clique com o botão direito do mouse no banco de dados e selecione a opção new query.**
+6. **Clique com o botão direito do mouse no banco de dados e selecione a opção new query.**
 
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/8f12d253-fb69-4488-9076-0abd1d7c34c3)
 
-6. **Execute o seguinte comando no banco de dados:**
+7. **Execute o seguinte comando no banco de dados:**
 ```
 ALTER DATABASE [Registers]
 SET CHANGE_TRACKING = ON
@@ -65,9 +65,9 @@ ENABLE CHANGE_TRACKING;
 ```
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/d33a7c49-2bd8-4584-8e4d-8e2c1f875d8c)
 
-7. **Execute o projeto da Function e depois execute o projeto da API.**
+8. **Execute o projeto da Function e depois execute o projeto da API.**
 
-8. **Faça as requisições através da interface do swagger e veja o console do projeto da function exibindo os dados e operações realizadas.** 
+9. **Faça as requisições através da interface do swagger e veja o console do projeto da function exibindo os dados e operações realizadas.** 
 
 ![image](https://github.com/Allanhenriquee/SampleSqlTrigger/assets/52016301/03565a0b-60eb-4e65-a158-0172354a440e)
 
